@@ -448,8 +448,9 @@ h2 {
   letter-spacing: 0.02em;
   color: #fff;
 }
-.footer-form {
+.footer_form {
   display: flex;
+  gap: 24px;
 }
 .footer-label {
   gap: 24px;
