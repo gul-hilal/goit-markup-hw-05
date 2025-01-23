@@ -415,151 +415,75 @@
     </main>
     <!--Main soon-->
 
-    <!-- footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-div">
-          <a class="logo-footer" href="/"
-            >Web <span class="stu-dio">Studio</span></a
-          >
-          <p class="footer-p">
-            Increase the flow of customers and sales for your business with
-            digital marketing&growth solutions.
-          </p>
-        </div>
-        <div class="icon-footer">
-          <p class="social-media">Social media</p>
-          <ul class="footer-ul">
-            <li class="footer-li">
-              <a href="#" class="footer-a">
-                <svg class="icon-ellipse" width="24" height="24">
-                  <use href="./images/icons.svg#icon-Ellipse"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-li">
-              <a href="#" class="footer-a">
-                <svg class="icon-ellipse" width="24" height="24">
-                  <use href="./images/icons.svg#icon-ellipse2"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-li">
-              <a href="#" class="footer-a">
-                <svg class="icon-ellipse" width="24" height="24">
-                  <use href="./images/icons.svg#icon-ellipse3"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-li">
-              <a href="#" class="footer-a">
-                <svg class="icon-ellipse" width="24" height="24">
-                  <use href="./images/icons.svg#icon-ellipse4"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer-form">
-        <p class="footer-parag">Subscribe</p>
-        <form class="form">
-          <label class="footer-label">
-            <input
-              class="footer-input"
-              type="email"
-              name="email"
-              placeholder="E-mail"
-            />
-          </label>
-          <button class="footer-button" type="submit" name="button">
-            Subscribe
-            <svg class="footer-svg" width="24" height="24">
-              <use href="./images/icons.svg#icon-fly"></use>
+   <!-- Modal Window -->
+<div class="modal-window">
+    <div class="modal-container">
+      <button type="button" class="modal-button">
+        <svg class="icon" width="8" height="8">
+          <use href="/images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+  
+      <p class="modal-title">Leave your contacts and we will call you back</p>
+  
+      <form>
+        <div class="input-group">
+          <label for="username" class="name">Name</label>
+          <div class="input-inclusive">
+            <svg class="icon">
+              <use href="/images/icons.svg#icon-person"></use>
             </svg>
-          </button>
-        </form>
-      </div>
-    </footer>
-    <!-- footer soon-->
-
-    <!-- Modal Window -->
-    <div class="modal-window">
-      <div class="modal-container">
-        <button type="button" class="modal-button">
-          <svg class="icon" width="8" height="8">
-            <use href="/images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-
-        <p class="modal-title">Leave your contacts and we will call you back</p>
-
-        <form>
-          <div class="input-group">
-            <label for="username" class="name">Name</label>
-            <div class="input-inclusive">
-              <svg class="icon">
-                <use href="/images/icons.svg#icon-person"></use>
-              </svg>
-              <input
-                type="text"
-                name="username"
-                class="username"
-                id="username"
-              />
-            </div>
-
-            <div class="input-group">
-              <label for="phone" class="phone">Phone</label>
-              <div class="input-inclusive">
-                <svg class="icon">
-                  <use href="/images/icons.svg#icon-phone"></use>
-                </svg>
-                <input type="text" name="phone" class="phone" id="phone" />
-              </div>
-            </div>
-            <div class="input-group">
-              <label for="email" class="email">Email</label>
-              <div class="input-inclusive">
-                <svg class="icon">
-                  <use href="/images/icons.svg#icon-email"></use>
-                </svg>
-                <input type="text" name="email" class="email" id="email" />
-              </div>
-            </div>
-            <div class="input-group">
-              <label for="user-comment">Comment</label>
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                class="comment"
-                placeholder="Text Input"
-              ></textarea>
-            </div>
-            <div class="input-soon">
-              <input
-                type="checkbox"
-                id="user-privacy"
-                value="true"
-                name="user-privacy"
-                class="visually-hidden"
-              />
-              <label for="user-privacy" class="user-privacy"
-                >I accept the terms and conditions of the</label
-              >
-              <span>
-                <svg class="icon-soon">
-                  <use href="/images/icons.svg#icon-checkbox"></use>
-                </svg>
-                <input type="text" name="checkbox" />
-                <a class="privacy"> Privacy Policy </a>
-                <button class="privacy-button"></button>
-              </span>
-            </div>
+            <input type="text" name="username" class="username" id="username" />
           </div>
-        </form>
-      </div>
+        </div>
+  
+        <div class="input-group">
+          <label for="phone" class="phone">Phone</label>
+          <div class="input-inclusive">
+            <svg class="icon">
+              <use href="/images/icons.svg#icon-phone"></use>
+            </svg>
+            <input type="text" name="phone" class="phone" id="phone" />
+          </div>
+        </div>
+  
+        <div class="input-group">
+          <label for="email" class="email">Email</label>
+          <div class="input-inclusive">
+            <svg class="icon">
+              <use href="/images/icons.svg#icon-email"></use>
+            </svg>
+            <input type="email" name="email" class="email" id="email" />
+          </div>
+        </div>
+  
+        <div class="input-group">
+          <label for="user-comment">Comment</label>
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            class="comment"
+            placeholder="Text Input"
+          ></textarea>
+        </div>
+  
+        <div class="input-soon">
+          <input
+            type="checkbox"
+            id="user-privacy"
+            value="true"
+            name="user-privacy"
+            class="visually-hidden"
+          />
+          <label for="user-privacy" class="user-privacy">
+            I accept the terms and conditions of the
+          </label>
+          <a class="privacy" href="#"> Privacy Policy </a>
+        </div>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
     </div>
+  </div>
+
   </body>
 </html>
