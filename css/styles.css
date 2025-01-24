@@ -290,7 +290,7 @@ h1 {
   position: relative;
 }
 
-.input-inclusive .user-name {
+.input-inclusive .input-groups{
   width: 100%;
   height: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -302,6 +302,16 @@ h1 {
 }
 .input-inclusive .user-name:focus {
   border-color: #4d5ae5;
+}
+
+
+.name .phone .email .comment{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04;
+    color: #8e8f99;
+    display: block;
+    margin-bottom: 4px;
 }
 .icon {
   position: absolute;
