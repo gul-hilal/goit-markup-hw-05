@@ -379,10 +379,6 @@ h1 {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-open {
-  display: none;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -664,6 +660,26 @@ h2 {
   letter-spacing: 0.04;
   color: #8e8f99;
 }
+.footer-button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+.footer-svg {
+  margin-left: 16px;
+}
 
 .privacy {
   color: #4d5ae5;
@@ -720,4 +736,12 @@ h2 {
 }
 .input-group-two {
   margin-bottom: 16px;
+}
+.footer-form-inclusive {
+  display: flex;
+  gap: 24px;
+}
+
+.is-open {
+  display: none;
 }
