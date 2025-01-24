@@ -239,26 +239,18 @@ h1 {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover {
-  background-color: #404bbf;
-  border: none;
-}
-
+.modal-button:hover,
 .modal-button:focus {
   background-color: #404bbf;
   border: none;
 }
 
-.modal-button .icon {
+.modal-button:hover .icon,
+.modal-button:focus .icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #ffffff;
 }
-.modal-button .icon:hover {
-  fill: #ffffff;
-}
-.modal-button .icon:focus {
-  fill: #ffffff;
-}
+
 .modal-title {
   font-weight: 500;
   font-size: 16px;
@@ -299,7 +291,7 @@ h1 {
   border-color: #4d5ae5;
 }
 
-.name .phone .email .comment {
+.label-group {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04;
@@ -729,10 +721,15 @@ h2 {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #4d5ae5;
 }
 
-.icon:focus {
-  fill: #4d5ae5;
+.input-group {
+  width: 100%;
+  height: 40px;
+}
+.input-group:focus {
+  border-color: #4d5ae5;
 }
 .input-group-two {
   margin-bottom: 16px;
