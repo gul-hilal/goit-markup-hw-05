@@ -698,11 +698,7 @@ h2 {
   fill: transparent;
 }
 
-.checkbox-input:checked + .checkbox-label .checkbox-span {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
+
 
 .send-button {
   min-width: 169px;
