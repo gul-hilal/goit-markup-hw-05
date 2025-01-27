@@ -256,9 +256,6 @@ h1 {
 .modal-button:focus .icon {
   fill: #ffffff;
 }
-.modal-button {
-  outline: none;
-}
 
 .icon {
   position: absolute;
@@ -326,7 +323,6 @@ h1 {
 }
 
 .comment {
-  display: block;
   width: 100%;
   height: 120px;
   font-size: 12px;
@@ -666,7 +662,7 @@ h2 {
 .user-privacy {
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: #8e8f99;
 }
 .footer-button {
