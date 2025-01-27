@@ -265,21 +265,22 @@ h1 {
 
 .modal-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: var(--white);
 }
 
-.button-modal-button:focus,
+.button-modal-button:focus {
+  background-color: var(--ocean);
+  border: none;
+}
 .button-modal-button:hover {
   background-color: var(--ocean);
   border: none;
 }
-
 .button-modal-button:hover svg.modal-icon {
-    fill: var(--white);
-  }
+  fill: var(--white);
+}
 .button-modal-button:focus svg.modal-icon {
-    fill: var(--white);
-  }
+  fill: var(--white);
+}
 
 .modal-icon {
   position: absolute;
@@ -327,10 +328,10 @@ h1 {
 .input-inclusive {
   position: relative;
 }
-.input:checked + label .user-privacy {
-    background-color: var(--ocean);
-    border: none;
-    fill: var(--cloud);
+.input[type="checkbox"]:checked {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
 }
 .input-inclusive .input-groups {
   border: 1px solid rgba(46, 47, 66, 0.4);
