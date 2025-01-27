@@ -256,6 +256,9 @@ h1 {
 .modal-button:focus .icon {
   fill: #ffffff;
 }
+.modal-button {
+  outline: none;
+}
 
 .icon {
   position: absolute;
