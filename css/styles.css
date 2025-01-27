@@ -325,7 +325,11 @@ h1 {
 .input-inclusive {
   position: relative;
 }
-
+.input:checked + label .user-privacy {
+    background-color: var(--ocean);
+    border: none;
+    fill: var(--cloud);
+}
 .input-inclusive .input-groups {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
