@@ -365,14 +365,15 @@ h1 {
   border-color: var(--iris);
 }
 
-
 .user-privacy {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--lıght-slate);
 }
-
+.check-box {
+  margin-bottom: 24px;
+}
 .span {
   width: 16px;
   height: 16px;
