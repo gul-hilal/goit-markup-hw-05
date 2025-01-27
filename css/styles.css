@@ -274,10 +274,10 @@ h1 {
   border: none;
 }
 
-.modal-button:hover svg.modal-icon {
+.button-modal-button:hover svg.modal-icon {
     fill: var(--white);
   }
-  .modal-button:focus svg.modal-icon {
+.button-modal-button:focus svg.modal-icon {
     fill: var(--white);
   }
 
