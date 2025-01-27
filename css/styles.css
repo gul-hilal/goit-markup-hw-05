@@ -129,7 +129,6 @@ header {
   left: 0;
   bottom: -1px;
   height: 4px;
-
   background-color: var(--ocean);
   border-radius: 2px;
 }
@@ -164,7 +163,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-
   background-color: var(--navy-blue);
   padding: 188px 0;
   max-width: 1440px;
@@ -196,7 +194,6 @@ h1 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
   color: var(--white);
   min-width: 169px;
   height: 56px;
@@ -217,7 +214,6 @@ h1 {
 
 .modal-window {
   position: fixed;
-
   top: 0;
   left: 0;
   width: 100%;
@@ -263,22 +259,22 @@ h1 {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-modal-button:focus {
-  background-color: var(--ocean);
-  border: none;
-}
 .button-modal-button:hover {
   background-color: var(--ocean);
   border: none;
 }
-.button-modal-button:hover svg.modal-icon {
+.button-modal-button:focus {
+  background-color: var(--ocean);
+  border: none;
+}
+.modal-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-icon:hover {
   fill: var(--white);
 }
-.button-modal-button:focus svg.modal-icon {
+.modal-icon:focus {
   fill: var(--white);
 }
 
@@ -299,14 +295,15 @@ h1 {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.icon-x:focus {
+  fill: var(--iris);
+}
 .modal-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-
   color: var(--navy-blue);
   margin-bottom: 16px;
 }
@@ -316,7 +313,6 @@ h1 {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-
   color: var(--lıght-slate);
   display: block;
   margin-bottom: 8px;
@@ -328,10 +324,12 @@ h1 {
 .input-inclusive {
   position: relative;
 }
-.input[type="checkbox"]:checked {
-  background-color: var(--ocean);
-  border: none;
-  fill: var(--cloud);
+
+.input-groups {
+  width: 100%;
+}
+.input-groups:focus {
+  border-color: var(--iris);
 }
 .input-inclusive .input-groups {
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -347,7 +345,7 @@ h1 {
 .label-group {
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: var(--lıght-slate);
   display: block;
   margin-bottom: 4px;
@@ -393,6 +391,11 @@ h1 {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.privacy-span {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
 }
 
 .privacy {
