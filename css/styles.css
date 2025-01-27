@@ -376,7 +376,7 @@ h1 {
   letter-spacing: 0.04em;
   color: var(--lıght-slate);
 }
-.check-box {
+.checkbox {
   margin-bottom: 24px;
 }
 .span {
@@ -392,7 +392,7 @@ h1 {
   justify-content: center;
   fill: transparent;
 }
-.privacy-span {
+.checkbox-input:checked + .checkbox-label .checkbox-span {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
